@@ -2,14 +2,14 @@
 A script to like back your Tinder likes using (or in this contect abusing) the teasers function in Tinder.
 
 Small footnote because I have already got this question from friends, you can only like back people who:
-A) Liked you (ofcourse)
-B) You have not swiped on (neither liked or disliked). Tinder does sometimes show profiles again, but this is rare and random.
-C) Developing on this script is difficult, because I need to get (sometimes multiple) likes. Not always easy.
-D) You might need to manually remove pictures from the pics folder
+1) Liked you (ofcourse)
+2) You have not swiped on (neither liked or disliked). Tinder does sometimes show profiles again, but this is rare and random.
+3) Developing on this script is difficult, because I need to get (sometimes multiple) likes. Not always easy.
+4) You might need to manually remove pictures from the pics folder
 
 
 
-<h1>FIRST STEPS BEFORE RUNNING</h1>
+<h2>FIRST STEPS BEFORE RUNNING</h2>
 
 Download Python: https://www.python.org/downloads/
 Install Python
@@ -26,7 +26,7 @@ You need to get your API refresh token. The easiest way is through Tinderweb.
 
 
 
-<h1>CHANGING THE SETTINGS</h1>
+<h2>CHANGING THE SETTINGS</h2>
 
 The following stettings are available:
 1) remote_mode 
