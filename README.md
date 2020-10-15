@@ -2,9 +2,9 @@
 A script to like back your Tinder likes using (or in this context abusing) the teasers function in Tinder.
 The script allows you to utilise some gold functionality without the actual subscription. It is therefore intended for educational purposes (please don't sue me Tinder)
 
-Small footnote because I have already got this question from friends, you can only like back people who:
-1) Liked you (of course)
-2) You have not swiped on (neither liked or disliked). Tinder does sometimes show profiles again, but this is rare and random.
+Small footnote because I have already got this question from friends:
+1) You can only like back people who liked you (of course)
+2) You have not swiped on (neither liked or disliked) them yet. Tinder does sometimes show profiles again, but this is rare and random.
 3) You might need to manually remove pictures from the pics folder
 
 
