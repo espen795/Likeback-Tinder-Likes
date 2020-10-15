@@ -9,7 +9,7 @@ D) You might need to manually remove pictures from the pics folder
 
 
 
-FIRST STEPS BEFORE RUNNING
+<h1>FIRST STEPS BEFORE RUNNING</h1>
 
 Download Python: https://www.python.org/downloads/
 Install Python
@@ -26,7 +26,7 @@ You need to get your API refresh token. The easiest way is through Tinderweb.
 
 
 
-CHANGING THE SETTINGS
+<h1>CHANGING THE SETTINGS</h1>
 
 The following stettings are available:
 1) remote_mode 
