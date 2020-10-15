@@ -1,8 +1,9 @@
 # Likeback-Tinder-Likes
-A script to like back your Tinder likes using (or in this contect abusing) the teasers function in Tinder.
+A script to like back your Tinder likes using (or in this context abusing) the teasers function in Tinder.
+The script allows you to utilise some gold functionality without the actual subscription. It is therefore intended for educational purposes (please don't sue me Tinder)
 
 Small footnote because I have already got this question from friends, you can only like back people who:
-1) Liked you (ofcourse)
+1) Liked you (of course)
 2) You have not swiped on (neither liked or disliked). Tinder does sometimes show profiles again, but this is rare and random.
 3) Developing on this script is difficult, because I need to get (sometimes multiple) likes. Not always easy.
 4) You might need to manually remove pictures from the pics folder
@@ -36,3 +37,7 @@ The following stettings are available:
 3) save_images, if true save in the pics folder
 4) refresh_token = the code you pasted in first install
 5) x_auth = used to authenticate
+
+
+<h2>Sources</h2>
+Got the api information from https://github.com/fbessez/Tinder
