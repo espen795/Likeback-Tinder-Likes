@@ -5,8 +5,7 @@ The script allows you to utilise some gold functionality without the actual subs
 Small footnote because I have already got this question from friends, you can only like back people who:
 1) Liked you (of course)
 2) You have not swiped on (neither liked or disliked). Tinder does sometimes show profiles again, but this is rare and random.
-3) Developing on this script is difficult, because I need to get (sometimes multiple) likes. Not always easy.
-4) You might need to manually remove pictures from the pics folder
+3) You might need to manually remove pictures from the pics folder
 
 
 
@@ -15,7 +14,7 @@ Small footnote because I have already got this question from friends, you can on
 Download Python: https://www.python.org/downloads/
 Install Python
 
-You need to get your API refresh token. The easiest way is through Tinderweb.
+You need to get your API refresh token. The easiest way is through Tinderweb. The example is for Chrome, the steps for other browsers might differ slightly.
 1) Go to https://tinder.com/
 2) Press F12
 3) Navigate to tab Application
@@ -41,3 +40,16 @@ The following stettings are available:
 
 <h2>Sources</h2>
 Got the api information from https://github.com/fbessez/Tinder
+
+<h2>Development</h2>
+Developing on this script is difficult, because I need to get (sometimes multiple) likes. Not always easy.
+
+<h3>Not tested</h3>
+I recently added line 282 and like_ids_clean to remove duplicate profile IDs. This functionality is not yet tested.
+
+<h3>Feature improvements</h3>
+Creating a combined mode where both local storage and remote mode is used.
+Some functionality to allow user to actually view a profile before liking back
+
+<h3>Bugs</h3>
+None that I am aware of
