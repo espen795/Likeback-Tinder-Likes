@@ -50,6 +50,7 @@ I recently added line 282 and like_ids_clean to remove duplicate profile IDs. Th
 <h3>Feature improvements</h3>
 Creating a combined mode where both local storage and remote mode is used.
 Some functionality to allow user to actually view a profile before liking back
+Customise amount of tries per run in config
 
 <h3>Bugs</h3>
 None that I am aware of
