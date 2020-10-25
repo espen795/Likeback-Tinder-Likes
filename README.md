@@ -53,4 +53,4 @@ Some functionality to allow user to actually view a profile before liking back
 Customise amount of tries per run in config
 
 <h3>Bugs</h3>
-None that I am aware of
+None that I am aware of, but please inform me if there are any!
