@@ -6,6 +6,7 @@ Small footnote because I have already got this question from friends:
 1) You can only like back people who liked you (of course)
 2) You have not swiped on (neither liked or disliked) them yet. Tinder does sometimes show profiles again, but this is rare and random.
 3) You might need to manually remove pictures from the pics folder
+4) Tinder only serves you the 10 most recent likes with the teasers function. Using local mode might help with this.
 
 
 
@@ -45,7 +46,7 @@ Got the api information from https://github.com/fbessez/Tinder
 Developing on this script is difficult, because I need to get (sometimes multiple) likes. Not always easy.
 
 <h3>Not tested</h3>
-I recently added line 282 and like_ids_clean to remove duplicate profile IDs. This functionality is not yet tested.
+-
 
 <h3>Feature improvements</h3>
 Creating a combined mode where both local storage and remote mode is used.
