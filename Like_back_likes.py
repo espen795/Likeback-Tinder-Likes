@@ -220,23 +220,30 @@ def get_likes_from_teaser():
     try:
         response = get_data(url_recs)
         data = response['data']
-        results = data['results']
 
-        for users in results:
-            user = users['user']
-            photo = user['photos']
-            elist2 = photo[0]
-            url = elist2['url']    
+        if 'results' in data:
+            results = data['results']
+        
+            for users in results:
+                user = users['user']
+                photo = user['photos']
+                elist2 = photo[0]
+                url = elist2['url']    
 
-            if re.search('_(.*)_(.*)\.', url):
-                result = re.findall('.*_(.*)\.', url)
-            else:
-                result = re.findall('_(.*)\.', url)
+                if re.search('_(.*)_(.*)\.', url):
+                    result = re.findall('.*_(.*)\.', url)
+                else:
+                    result = re.findall('_(.*)\.', url)
 
-            for like in liked_me:
-                if like == result:
-                    print("Found the profile ID of someone who liked you: ", user["_id"])
-                    like_ids.append(user["_id"])
+                for like in liked_me:
+                    if like == result:
+                        print("Found the profile ID of someone who liked you: ", user["_id"])
+                        like_ids.append(user["_id"])
+        else:
+                print("There are no profiles returned by Tinder, try changing your search distance")
+                failed_errors.append('There are no profiles returned by Tinder')
+                log_to_file(failed_errors)
+
     except urllib.error.URLError as e:
         failed_errors.append('Failed getting recs from tinder, reason:')
         failed_errors.append(e.reason)
