@@ -54,4 +54,6 @@ Some functionality to allow user to actually view a profile before liking back
 Customise amount of tries per run in config
 
 <h3>Bugs</h3>
-None that I am aware of, but please inform me if there are any!
+1) If Tinder doesn't return any profiles the code throws an key error
+
+Please inform me if there are any!
