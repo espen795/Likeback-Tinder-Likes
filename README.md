@@ -15,16 +15,19 @@ Small footnote because I have already got this question from friends:
 Download Python: https://www.python.org/downloads/
 Install Python
 
-You need to get your API refresh token. The easiest way is through Tinderweb. The example is for Chrome, the steps for other browsers might differ slightly.
-1) Go to https://tinder.com/
-2) Press F12
-3) Navigate to tab Application
-4) Look for Storage -> Local Storage and click on the Tinder URL
-5) Find and copy the value for the TinderWeb/LoginDataRefreshToken (DON'T SHARE THIS CODE WITH ANYONE!)
-6) Run the script for the first time
-7) Open the config.ini
-8) paste the code after refresh_token = XXXXXXXX-CODE-GOES-HERE-XXXXXXXXXX 
-
+You need to get your API (refresh) token. The easiest way is through Tinderweb. The example is for Chrome, the steps for other browsers might differ slightly.
+1. Go to https://tinder.com/
+1. Press F12
+1. Navigate to tab Application
+1. Look for Storage -> Local Storage and click on the Tinder URL
+1. Find and copy the value for the TinderWeb/LoginDataRefreshToken (DON'T SHARE THIS CODE WITH ANYONE!)
+    1. No refresh token: copy the APIToken instead
+1. Run the script for the first time
+1. Open the config.ini
+1. Paste the code after refresh_token = {CODE-GOES-HERE}
+    1. No refresh token: put text into refresh_token = abcdef 
+    1. No refresh token: paste APIToken into x_auth = {CODE-GOES-HERE}
+    1. Note: API token will not remain valid for long, only give or take a day
 
 
 <h2>CHANGING THE SETTINGS</h2>
