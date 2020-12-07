@@ -55,9 +55,13 @@ Developing on this script is difficult, because I need to get (sometimes multipl
 Authentication using cookies.
 
 Creating a combined mode where both local storage and remote mode is used.
-Some functionality to allow user to actually view a profile before liking back
-Customise amount of tries per run in config
-Send automatic message when matched using customised string, ex: "Hey %name, how are you doing?"
+
+Some functionality to allow user to actually view a profile before liking back.
+
+Customise amount of tries per run in config.
+
+Send automatic message when matched using customised string, ex: "Hey %name, how are you doing?".
+
 
 <h3>Bugs</h3>
 The LoginDataRefreshToken variable is not always available. It looks like sometimes the browser authenticates using a cookie. I will look into this, and try implementing cookie authentication.
